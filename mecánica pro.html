@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecánica Pro | Guía de Llantas y Mantenimiento</title>
+    <style>
+        :root {
+            --azul-glaciar: #A7C7E7;    
+            --gris-fondo: #D1D1D1;      
+            --negro-detalles: #1A1A1A;  
+            --blanco-puro: #FFFFFF;     
+            --azul-oscuro: #5B7A91;     
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background-color: var(--gris-fondo);
+            color: var(--negro-detalles);
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: var(--azul-glaciar);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 5px solid var(--azul-oscuro);
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: var(--negro-detalles);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: var(--azul-glaciar);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+
+        nav a:hover { color: white; }
+
+        section {
+            padding: 40px 20px;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .apartado {
+            background-color: var(--blanco-puro);
+            border-radius: 12px;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+            border-top: 6px solid var(--azul-glaciar);
+        }
+
+        h2 {
+            color: var(--azul-oscuro);
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--gris-fondo);
+            padding-bottom: 10px;
+        }
+
+        .pasos {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--azul-oscuro);
+        }
+
+        .importante {
+            color: #d35400;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            background-color: var(--negro-detalles);
+            color: #777;
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mecánica Pro</h1>
+        <p>Dominando lo básico: Llantas, Motor y Seguridad</p>
+    </header>
+
+    <nav>
+        <a href="#llantas">Llantas</a>
+        <a href="#luces">Luces</a>
+        <a href="#bujias">Bujías</a>
+        <a href="#niveles">Niveles</a>
+    </nav>
+
+    <section id="llantas">
+        <div class="apartado">
+            <h2>1. Todo sobre Llantas</h2>
+            <p>Las llantas son el único punto de contacto con el suelo. Mantenerlas bien salva vidas y ahorra combustible.</p>
+            
+            <h3>¿Cómo cambiar una llanta? (Emergencia)</h3>
+            <div class="pasos">
+                <ol>
+                    <li><strong>Aflojar:</strong> Antes de subir el auto, afloja las tuercas un poco con la llave de cruz.</li>
+                    <li><strong>Elevar:</strong> Coloca el gato en el punto sólido del chasis y sube el auto.</li>
+                    <li><strong>Sustituir:</strong> Quita las tuercas, cambia la llanta y pon las tuercas solo "al llegue".</li>
+                    <li><strong>Bajar y Apretar:</strong> Baja el auto y ahora sí, aprieta las tuercas con fuerza en forma de "X" o estrella.</li>
+                </ol>
+            </div>
+            <p class="importante">Ojo: Revisa la presión cada 15 días. La presión correcta está en la etiqueta del marco de la puerta del conductor.</p>
+        </div>
+    </section>
+
+    <section id="luces">
+        <div class="apartado">
+            <h2>2. Sistema de Luces</h2>
+            <p>Si una luz no enciende, no siempre es el foco; a veces es un fusible quemado.</p>
+            <ul>
+                <li><strong>Faros principales:</strong> Si vas a cambiarlos, nunca toques el cristal del foco nuevo con los dedos desnudos.</li>
+                <li><strong>Alineación:</strong> Si te "hacen luces" de frente, quizás tus faros están apuntando muy arriba.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="bujias">
+        <div class="apartado">
+            <h2>3. Cambio de Bujías</h2>
+            <p>El corazón de la combustión. Una bujía en mal estado hace que el auto gaste mucha gasolina.</p>
+            <p><strong>Tip Pro:</strong> Siempre retira la suciedad alrededor de la bujía antes de quitarla para que no caiga basura dentro del motor.</p>
+        </div>
+    </section>
+
+    <section id="niveles">
+        <div class="apartado">
+            <h2>4. Niveles y Parámetros</h2>
+            <p>Aprende a leer tu auto antes de que prenda el tablero.</p>
+            <ul>
+                <li><strong>Aceite:</strong> Debe estar entre las dos muescas de la varilla.</li>
+                <li><strong>Líquido de Frenos:</strong> Si baja constantemente, tienes una fuga peligrosa.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Guía de Mecánica Básica &copy; 2026 | Estética Porsche Glacier</p>
+    </footer>
+
+</body>
+</html>
